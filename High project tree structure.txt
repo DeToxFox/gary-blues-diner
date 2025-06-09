@@ -1,0 +1,15 @@
+garys-blue-diner/
+├── index.html
+├── public/
+│   └── (static assets only)
+└── src/
+    ├── main.jsx
+    ├── index.css        ← Tailwind imports
+    ├── App.jsx
+    ├── components/      ← Header, Footer, UI bits
+    ├── pages/           ← OrderPage, PaymentPage, etc.
+    ├── hooks/           ← custom hooks here
+    │   ├── useFormFields.jsx
+    │   └── useOrderContext.jsx
+    └── styles/          ← extra CSS modules or globals
+        └── globals.css  ← if overrides needed beyond Tailwind

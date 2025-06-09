@@ -1,0 +1,43 @@
+garys-blue-diner/
+├── .gitignore
+├── README.md
+├── netlify.toml
+├── package.json
+├── package-lock.json
+├── vite.config.js
+├── tailwind.config.js
+├── postcss.config.js
+├── index.html
+├── public/                      # static assets copied verbatim
+│   ├── favicon.ico
+│   ├── robots.txt
+│   └── logo-192.png
+└── src/
+    ├── main.jsx                # app entrypoint, imports index.css & App
+    ├── index.css               # Tailwind base/components/utilities
+    ├── globals.css             # any extra global overrides
+    ├── App.jsx                 # root component + Router setup
+    ├── assets/                 # images, fonts, etc.
+    │   └── logo.png
+    ├── components/             # reusable UI bits
+    │   ├── Header.jsx
+    │   ├── Footer.jsx
+    │   └── UI/
+    │       ├── Button.jsx
+    │       ├── Input.jsx
+    │       ├── Select.jsx
+    │       └── Card.jsx
+    ├── pages/                  # top-level views / routes
+    │   ├── OrderPage.jsx
+    │   ├── PaymentPage.jsx
+    │   └── ConfirmationPage.jsx
+    ├── context/                # React Context providers/hooks
+    │   └── OrderContext.jsx
+    ├── hooks/                  # custom React hooks
+    │   ├── useFormFields.jsx
+    │   ├── useOrderContext.jsx
+    │   └── useLocalStorage.jsx
+    ├── utils/                  # pure helper functions
+    │   └── randomOrderNum.js
+    ├── data/                   # static JSON or mock data
+    │   └── menuItems.json

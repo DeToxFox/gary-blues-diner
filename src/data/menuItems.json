@@ -1,0 +1,9 @@
+[
+  { "id": "eggs-bacon", "name": "Eggs & Bacon" },
+  { "id": "waffles",    "name": "Waffles" },
+  { "id": "pancakes",  "name": "Pancakes" },
+  { "id": "omelette",  "name": "Omelette" },
+  { "id": "smoothie",  "name": "Smoothie" },
+  { "id": "coffee",    "name": "Coffee" },
+  { "id": "tea",       "name": "Tea" }
+]
